@@ -1,0 +1,108 @@
+/* Resetear estilos del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #16bb97; /* Color de fondo del menú */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Para que los elementos se muestren en línea */
+}
+
+nav ul li {
+    margin-right: 20px; /* Espacio entre elementos del menú */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+nav ul li a {
+    display: block;
+    color: #ffffff; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    padding: 10px; /* Espacio alrededor del texto del enlace */
+}
+
+nav ul li a:hover {
+    background-color: #6fda61f5; /* Color de fondo cuando se pasa el mouse sobre el enlace */
+  
+}
+.imagen{ height: 500px;
+
+}
+.traduccion{height: 500px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pie {
+       background: #16bb97;
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+span{
+    font-size: 23px;
+}
+.fb{
+    background: blue;
+    border-radius: 50px;
+    color: white;
+}
+.tel{background: green;
+     border-radius: 50px;
+     color: white;
+}
+.tw{background-color: white;
+    border-radius: 50px;
+
+
+}
+.in{
+    background-color: #c83de4f5;
+    border-radius: 50px;
+    color: white;
+    }
+.yu{
+    background-color: #bb0404f5;
+    border-radius: 50px;
+    color: white;
+}
+.logotipo {color: white;}
+div h2{color: white;
+
+}
+form.{
+      display: flex;
+      flex-direction: column;    
+}
+input {
+    background: none;
+    border: solid 2px white
+    padding: 10px 20px;
+
+}
+button{
+       padding: 10px 20px;
+       background: white;
+}
+.foto {height: 400px;}
+.Charlotte{
+    height: 400px;
+}
